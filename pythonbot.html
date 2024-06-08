@@ -13,6 +13,7 @@
    <script defer src="assets/fonts/all.min.js"></script>
    <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
    <link id="additional-style" rel="stylesheet" href="assets/css/resume.css">
+
 </head>
 
 <body>
@@ -92,8 +93,12 @@
                                        </p>
                                     </div>
                                     <div class="mt-5">
-                                       <a href="https://github.com" target="_blank" class="btn btn-secondary"><i
-                                             class="fab fa-github me-2"></i>Репозиторий</a>
+                                       <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip"
+                                          data-bs-placement="top" title="Поставляется вместе со мной :D">
+                                          <a href="#" class="disabled-link">
+                                             <i class="fab fa-github me-2"></i>Репозиторий
+                                          </a>
+                                       </button>
                                        <a href="index.html" target="_self" class="btn btn-danger">Назад к резюме</a>
                                     </div>
                                  </div>
@@ -187,6 +192,16 @@
       </footer>
    </div>
    <script src="assets/js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+         })
+      });
+   </script>
 </body>
 
 </html>
