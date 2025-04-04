@@ -13,9 +13,20 @@
    <script defer src="assets/fonts/all.min.js"></script>
    <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
    <link id="additional-style" rel="stylesheet" href="assets/css/resume.css">
+   <link rel="stylesheet" href="assets/css/dark-mode.css">
 </head>
 
 <body>
+   <!-- Dark Mode Toggle -->
+   <div class="dark-mode-toggle">
+      <span class="light-icon"><i class="fas fa-sun"></i></span>
+      <label class="switch">
+         <input type="checkbox" id="darkModeToggle">
+         <span class="slider"></span>
+      </label>
+      <span class="dark-icon"><i class="fas fa-moon"></i></span>
+   </div>
+   
    <div class="area">
       <ul class="circles">
          <li></li>
@@ -228,6 +239,7 @@
       </footer>
    </div>
    <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/dark-mode.js"></script>
 </body>
 
 </html>
