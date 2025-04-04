@@ -6,16 +6,27 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="">
-   <meta name="author" content="Proglib">
+   <meta name="description" content="Портфолио Никиты Ищенко - Unity-разработчика с опытом в создании игр различных жанров, включая Roguelike, FPS, RTS и визуальные новеллы.">
+   <meta name="author" content="Никита Ищенко">
    <link rel="shortcut icon" href="assets/favicon.ico">
    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
    <script defer src="assets/fonts/all.min.js"></script>
    <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
    <link id="additional-style" rel="stylesheet" href="assets/css/resume.css">
+   <link rel="stylesheet" href="assets/css/dark-mode.css">
 </head>
 
 <body>
+   <!-- Dark Mode Toggle -->
+   <div class="dark-mode-toggle">
+      <span class="light-icon"><i class="fas fa-sun"></i></span>
+      <label class="switch">
+         <input type="checkbox" id="darkModeToggle">
+         <span class="slider"></span>
+      </label>
+      <span class="dark-icon"><i class="fas fa-moon"></i></span>
+   </div>
+   
    <div class="area">
       <ul class="circles">
          <li></li>
@@ -67,7 +78,7 @@
                         и визуальные новеллы. Имею глубокие знания в области сетевых решений, оптимизации
                         производительности и современных технологий, таких как DOTS (ECS, Burst, Job System), Unity ML.
                         Изучаю Compute Shaders и HLSL. Активно применяю лучшие практики разработки, включая сервисную
-                        архитектуру (DI), ECS использование современных библиотек (VContainer, UniTask, FMOD и др.) и систем
+                        архитектуру (DI), использование ECS, современных библиотек (VContainer, UniTask, FMOD и др.) и систем
                         контроля версий. Готов решать задачи любой сложности, работать в команде и вносить вклад в развитие
                         проектов. </p>
                   </div>
@@ -180,9 +191,9 @@
                                  проекта на новые версии Unity и Photon Fusion и упрощения работы с системой
                                  контроля версий. </p>
                               <ul class="resume-list">
-                                 <li>Проработка и оптимизация сетевой части игры (исправление паста кода и сокращение
+                                 <li>Проработка и оптимизация сетевой части игры (исправление паст-кода и сокращение
                                     использования
-                                    RPC методов которые нагружают трафик и увеличивают задержку, было даже такое что
+                                    RPC методов, которые нагружают трафик и увеличивают задержку; было даже такое, что
                                     метод RPC был в Update &#9760;)</li>
                                  <li>Перенос проекта на <strong>Fusion 2</strong> и на <strong>Unity
                                        2022.3.21f1</strong>.</li>
@@ -404,7 +415,7 @@
                            <ul class="list-unstyled resume-skills-list">
                               <li class="skill-subsection">Программирование и архитектура:</li>
                               <li class="mb-2">C#/OOP</li>
-                              <li class="mb-2">UniTask<li>
+                              <li class="mb-2">UniTask</li>
                               <li class="mb-2">DOTS</li>
                               <li class="mb-2">Photon Fusion 1/Fusion 2/Quantum</li>
                               <li class="mb-2">Odin Inspector и Serializer</li>
@@ -437,8 +448,7 @@
                            <h4 class="item-title">Soft Skills</h4>
                            <ul class="list-unstyled resume-skills-list">
                               <li class="mb-2">Работоспособность</li>
-                              <li class="mb-2">Стрессоустойчивость
-                              <li>
+                              <li class="mb-2">Стрессоустойчивость</li>
                               <li class="mb-2">Быстрая обучаемость</li>
                               <li class="mb-2">Высокая эффективность</li>
                               <li class="mb-2">Критическое мышление</li>
@@ -496,5 +506,6 @@
       </footer>
    </div>
    <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/dark-mode.js"></script>
 </body>
 </html>
