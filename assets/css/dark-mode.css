@@ -1,0 +1,121 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .theme-bg-light {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0;
+}
+
+body.dark-mode .text-primary {
+    color: #90caf9 !important;
+}
+
+body.dark-mode .text-muted {
+    color: #adb5bd !important;
+}
+
+body.dark-mode .resume-link {
+    color: #90caf9;
+}
+
+body.dark-mode .resume-link:hover {
+    color: #64b5f6;
+}
+
+body.dark-mode .card {
+    background-color: #2d2d2d;
+    border-color: #444;
+}
+
+body.dark-mode .card-body {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+body.dark-mode hr {
+    border-color: #444;
+}
+
+/* Dark mode toggle switch */
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode-toggle label {
+    margin-left: 8px;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+/* Dark mode icons */
+.dark-mode-toggle .light-icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.dark-mode-toggle .dark-icon {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+body.dark-mode .dark-mode-toggle {
+    background-color: rgba(0, 0, 0, 0.3);
+}
