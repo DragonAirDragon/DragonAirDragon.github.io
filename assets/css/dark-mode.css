@@ -13,10 +13,15 @@ body.dark-mode .text-primary {
     color: #90caf9 !important;
 }
 
-body.dark-mode .item-title {
+
+body.dark-mode .item-title,
+body.dark-mode h4.item-title {
     color: #90caf9 !important;
 }
 
+body.dark-mode .skill-subsection {
+    color: #e0e0e0 !important;
+}
 body.dark-mode .text-muted {
     color: #adb5bd !important;
 }
