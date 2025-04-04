@@ -13,6 +13,10 @@ body.dark-mode .text-primary {
     color: #90caf9 !important;
 }
 
+body.dark-mode .item-title {
+    color: #90caf9 !important;
+}
+
 body.dark-mode .text-muted {
     color: #adb5bd !important;
 }

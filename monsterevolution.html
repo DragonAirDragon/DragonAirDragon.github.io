@@ -13,9 +13,20 @@
    <script defer src="assets/fonts/all.min.js"></script>
    <link id="theme-style" rel="stylesheet" href="assets/css/style.css">
    <link id="additional-style" rel="stylesheet" href="assets/css/resume.css">
+   <link rel="stylesheet" href="assets/css/dark-mode.css">
 </head>
 
 <body>
+   <!-- Dark Mode Toggle -->
+   <div class="dark-mode-toggle">
+      <span class="light-icon"><i class="fas fa-sun"></i></span>
+      <label class="switch">
+         <input type="checkbox" id="darkModeToggle">
+         <span class="slider"></span>
+      </label>
+      <span class="dark-icon"><i class="fas fa-moon"></i></span>
+   </div>
+   
    <div class="area">
       <ul class="circles">
          <li></li>
@@ -141,7 +152,7 @@
                            <ul class="list-unstyled resume-skills-list">
                               <li class="skill-subsection">Программирование и архитектура:</li>
                               <li class="mb-2">C#/OOP</li>
-                              <li class="mb-2">UniTask<li>
+                              <li class="mb-2">UniTask</li>
                               <li class="mb-2">DOTS</li>
                               <li class="mb-2">Photon Fusion 1/Fusion 2/Quantum</li>
                               <li class="mb-2">Odin Inspector и Serializer</li>
@@ -234,6 +245,7 @@
       </footer>
    </div>
    <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/dark-mode.js"></script>
 </body>
 
 </html>
