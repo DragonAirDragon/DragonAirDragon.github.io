@@ -1,0 +1,117 @@
+/* Language toggle styles */
+.language-toggle {
+    position: fixed;
+    top: 65px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.language-toggle .lang-icon {
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.language-toggle .ru-icon {
+    display: inline-block;
+}
+
+.language-toggle .en-icon {
+    display: inline-block;
+    
+}
+
+/* Language toggle switch - используем те же стили что и для dark mode */
+.language-toggle .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin: 0 8px;
+}
+
+.language-toggle .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.language-toggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.language-toggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.language-toggle input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.language-toggle input:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+body.dark-mode .language-toggle {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .language-toggle .lang-icon {
+    color: #e0e0e0;
+}
+
+/* Language content visibility */
+body.lang-ru .en-text {
+    display: none !important;
+}
+
+body.lang-en .ru-text {
+    display: none !important;
+}
+
+/* Default state - show Russian */
+body:not(.lang-en):not(.lang-ru) .en-text {
+    display: none !important;
+}
+
+body:not(.lang-en):not(.lang-ru) .ru-text {
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .language-toggle {
+        right: 15px;
+        top: 60px;
+        padding: 3px 8px;
+    }
+    
+    .dark-mode-toggle {
+        right: 15px;
+        top: 15px;
+    }
+}
