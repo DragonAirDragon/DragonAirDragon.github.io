@@ -117,12 +117,11 @@ input:checked + .slider:before {
 /* Dark mode icons */
 .dark-mode-toggle .light-icon {
     display: inline-block;
-    margin-right: 5px;
 }
 
 .dark-mode-toggle .dark-icon {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 body.dark-mode .dark-mode-toggle {
