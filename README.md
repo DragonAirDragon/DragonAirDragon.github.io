@@ -41,11 +41,41 @@
 
 ## 🛠️ Технологии
 
+**🎮 Unity & C#**
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![DOTS](https://img.shields.io/badge/DOTS-ECS-blue?style=flat-square)
+![UniTask](https://img.shields.io/badge/UniTask-Async-green?style=flat-square)
+
+**🏗️ Архитектура & Фреймворки**
+![VContainer](https://img.shields.io/badge/VContainer-DI-blue?style=flat-square)
+![Morpeh](https://img.shields.io/badge/Morpeh-ECS-green?style=flat-square)
+![Addressables](https://img.shields.io/badge/Addressables-Assets-orange?style=flat-square)
+![Naninovel](https://img.shields.io/badge/Naninovel-Visual%20Novel-purple?style=flat-square)
+
+**🌐 Сетевые решения**
+![Photon](https://img.shields.io/badge/Photon-Fusion-red?style=flat-square)
+![WebGL](https://img.shields.io/badge/WebGL-Platform-yellow?style=flat-square)
+
+**🤖 ИИ & ML**
 ![ML-Agents](https://img.shields.io/badge/ML--Agents-AI-red?style=flat-square)
+![Roslyn](https://img.shields.io/badge/Roslyn-Compiler-blue?style=flat-square)
+
+**🎨 UI & Графика**
+![uGUI](https://img.shields.io/badge/uGUI-Interface-lightblue?style=flat-square)
+![ShaderGraph](https://img.shields.io/badge/ShaderGraph-Shaders-orange?style=flat-square)
+![HLSL](https://img.shields.io/badge/HLSL-Shaders-red?style=flat-square)
+![DOTween](https://img.shields.io/badge/DOTween-Animation-green?style=flat-square)
+
+**🔧 Инструменты**
+![Git](https://img.shields.io/badge/Git-VCS-orange?style=flat-square)
+![Odin](https://img.shields.io/badge/Odin-Inspector-purple?style=flat-square)
+![FMOD](https://img.shields.io/badge/FMOD-Audio-red?style=flat-square)
+![Figma](https://img.shields.io/badge/Figma-Design-pink?style=flat-square)
+
+**💻 Дополнительно**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ---
 
